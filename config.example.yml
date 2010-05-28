@@ -1,0 +1,4 @@
+server: "myserver1"
+key: "1234567890"
+host: "localhost:3000"
+auth: "jordi:jordi@"
