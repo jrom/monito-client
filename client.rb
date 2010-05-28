@@ -7,7 +7,7 @@ require 'uri'
 require 'yaml'
 
 
-@config = YAML.load(File.join(File.dirname(__FILE__), "config.yml"))
+@config = YAML.load(File.read(File.join(File.dirname(__FILE__), "config.yml")))
 
 def os
   return "darwin" if RUBY_PLATFORM =~ /darwin/
